@@ -1,51 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PABLO SZ</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PABLO_SZ</title>
-    <link rel="stylesheet" href="./public/CSS/style.css">
+    <title>PABLO SZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Pablo Sz</h1>
-    <p>Creacion de Contenido Audiovisual</p>
-<div id="all">
-    <div id="allcontent">
-        <div id="maincontent">
-            <div class="portfolio">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/r4svFNup4RA?si=aB9xN9N4rmsGtQp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <br>
-                <span class="txt">Camisa reconfeccionada a partir de una mas grande</span>
-                <div class="ombra"></div>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav-logo">Pablo Sz</a>
             </div>
-            <div class="portfolio">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc1turCUEy0?si=x0KFpr407m9C8piN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <span class="txt">Campera 70´s reciclada</span>
-                <div class="ombra"></div>
-            </div>
-            <div class="portfolio">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/G20q_QrWpHI?si=A2MLjzZGCd-DmIgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <span class="txt">Jirones de mi vida</span>
-                <div class="ombra"></div>
-            </div>
-            <div class="portfolio">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3RpKjUtZ25Q?si=D-Yy5CxE2HUxsyvF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <span class="txt">Re estilacion de camisa y pantalon</span>
-                <div class="ombra"></div>
-            </div>
-            <div class="portfolio">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MzaapV_1t7s?si=-NqQq9akERfRMX6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <span class="txt">Tela revivida y pinzamiento </span>
-                <div class="ombra"></div>
-            </div>
-        </div>
-        <div id="navi"></div>
 
-        <div class="footer"><a href="https://wa.me/5491158229266" target="_blank" >Whatsapp</a>
-        </div>
-    </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./script.js"></script>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Works</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">Hi, <br>I'm <span class="home-title-color">Pablo Sz</span><br> Web Designer (como seria lo que tengo que poner?)</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            
+
+            <div class="home-img">
+                <img src="img/pbl.png" alt="image">
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-container bd-grid">
+                <div class="about-img">
+                    <img src="img/pbl.png" alt="image">
+                </div>
+
+                <div>
+                    <h2 class="about-subtitle">I'm Pablo</h2>
+                    <p class="about-text">me llamo pablo y voy tres veces al baño. Una a cagar y las otras dos a tomar el colectivo... todo esto en ingles ((descripcion profesional))</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container bd-grid">
+                <div>
+                    <h2 class="skills-subtitle">Professional Skills</h2>
+                    <p class="skills-text">Trabajo con un equipo de produccion, muy profesional, que varia dependiendo del tamaño del mismo</p>
+                    </div>                 
+                </div>               
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Works</h2>
+
+            <div class="work-container bd-grid">
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r4svFNup4RA?si=aB9xN9N4rmsGtQp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc1turCUEy0?si=x0KFpr407m9C8piN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G20q_QrWpHI?si=A2MLjzZGCd-DmIgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3RpKjUtZ25Q?si=D-Yy5CxE2HUxsyvF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MzaapV_1t7s?si=-NqQq9akERfRMX6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_ZZB4taNP10?si=2T80Zx8MauZsCLIb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="work-img"></div><a>Podes mandarme un mail a pabloszuster@gmail.com</a></div>
+            <div class="work-img"></div><a href="https://wa.me/5491158229266" target="_blank" >If you can, textme to Whatsapp</a></div>
+
+           
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-title">PABLO SZ</p>
+
+        
+
+        <p>&#169; 2025 Copyright all rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>
