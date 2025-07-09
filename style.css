@@ -37,7 +37,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-    background: url('img/fondo.png') ;
+    background: url('img/fondo2.png') ;
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
