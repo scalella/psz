@@ -327,7 +327,7 @@ img {
 
     .work-container {
         grid-template-columns: repeat(2, 560px);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         column-gap: 1rem;
     }
 
